@@ -6,7 +6,7 @@
             <div class="col-2 pl-3">
                 <a href="{{url('/')}}" title="Logo" class="logo">
                     <!--Logo Default-->
-                    <img src="{{asset('img/tabadul-logo.png')}}" style="height: 60px;" alt="logo" class="logo-dark">
+                    <img src="{{asset('img/Tabadul-01.png')}}" style="height: 60px;" alt="logo" class="logo-dark">
                 </a>
             </div>
             @php($link = request()->route()->getName() == 'home' ? '' :  url('/'))

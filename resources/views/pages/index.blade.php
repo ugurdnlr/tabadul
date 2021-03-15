@@ -29,6 +29,11 @@
             height: 175px;
         }
 
+        #our-blog .news_item a:hover h4 {
+            text-decoration: underline;
+            color: #199fdf !important;
+        }
+
         .production-box img {
             height: 100px;
         }
@@ -66,7 +71,8 @@
                     <div class="about-img">
                         <img class="aboutImage" src="{{asset('img/Dr-Faituri.jpg')}}" style="height: 550px;">
                         <div class="mt-4 text-center">
-                        <span><b>{!! trans('page.president.title') !!}</b></span>
+                            <span><b>Dr. Anwar Faituri</b></span> <br>
+                        <span>{!! trans('page.president.title') !!}</span>
                         </div>
                     </div>
                 </div>
@@ -291,7 +297,7 @@
                             </div>
                             <div class="cast-detail d-flex align-items-center" style="height: 100px">
                                 <div class="cast-content">
-                                    <h4 class="cast-name">DR. OSAMA FAİTURİ</h4>
+                                    <h4 class="cast-name">DR. OSAMA YOUNİS</h4>
                                     <span class="cast-designation">{{__('page.managing.partner')}}</span>
                                 </div>
                                 <div class="overlay-cast"></div>
@@ -333,18 +339,34 @@
                'www.zadana.ly', 'www.tabadul.com.tr', 'https://www.neptunyazilim.com/', 'https://www.visafg.com/'
             ],
             'text' => [
-                'MENA bölgesinden Türkiye’ye yılda 80 binden fazla turist getiren, bölgedeki acenteleri ile B2B çalışan lider turizm grubudur.',
-                'Petrol firmaları başta olmak üzere Libya’nın önde gelen firmalarına eğitim ve proje danışmanlığı hizmetleri vermektedir.',
-                'Kanada merkezli şirketimiz, Libya’daki firmalara dijital dönüşüm, ERP, siber güvenlik, network çözümleri alanlarında hizmet sağlamaktadır.',
-                'Malta merkezli şirketimiz, Avrupa ve Kuzey Afrika ülkelerinde, başta güneş enerjisi olmak üzere yenilenebilir enerji alanında faaliyet göstermektedir.',
-                'Türkiye’ye gayrimenkul yatırımı yapmak isteyen yabancılara, Türk vatandaşlığı programından faydalanmak isteyen kişilere danışmanlık sağlamaktadır.',
-                'İstanbul Taksim meydanında bulunan, boğaz manzaralı odaları ve yüksek hizmet kalitesi ile misafirlerimizi ağırladığımız dört yıldızlı şehir otelimiz.',
-                'İstanbul’un tek tema parkının içinde yer alan, daha ziyade yabancı misafirlerimize, süit odalarla hizmet veren, beş yıldızlı otelimiz.',
-                'THY başta olmak üzere havayolu firmalarının uçak içi eğlence ve sosyal medya prodüksiyonlarını üreten, alanında tecrübeli bir şirkettir.',
-                'Trablus, Bingazi, Misurata ve  El Baida bulunan depoları ve kırktan fazla dağıtım kamyonu ile Zadana, Libya’nın tecrübeli toptan gıda ve içecek distribütörüdür. ',
-                'Distribütörü olduğu bir çok markanın Türkiye’den Afrika ülkelerine ihracatını yapan grup şirketimizdir.',
-                'Turizm sektörünün ihtiyaç duyduğu B2B yazılımları sağlayan grup şirketimizdir.',
-                'Libya ve Lübnan’daki ofisleri aracılığıyla Türk büyükelçiliklerine etiket vize hizmeti veren grup şirketimizdir.'
+                'tr' => [
+                     'MENA bölgesinden Türkiye’ye yılda 80 binden fazla turist getiren, bölgedeki acenteleri ile B2B çalışan lider turizm grubudur.',
+                    'Petrol firmaları başta olmak üzere Libya’nın önde gelen firmalarına eğitim ve proje danışmanlığı hizmetleri vermektedir.',
+                    'Kanada merkezli şirketimiz, Libya’daki firmalara dijital dönüşüm, ERP, siber güvenlik, network çözümleri alanlarında hizmet sağlamaktadır.',
+                    'Malta merkezli şirketimiz, Avrupa ve Kuzey Afrika ülkelerinde, başta güneş enerjisi olmak üzere yenilenebilir enerji alanında faaliyet göstermektedir.',
+                    'Türkiye’ye gayrimenkul yatırımı yapmak isteyen yabancılara, Türk vatandaşlığı programından faydalanmak isteyen kişilere danışmanlık sağlamaktadır.',
+                    'İstanbul Taksim meydanında bulunan, boğaz manzaralı odaları ve yüksek hizmet kalitesi ile misafirlerimizi ağırladığımız dört yıldızlı şehir otelimiz.',
+                    'İstanbul’un tek tema parkının içinde yer alan, daha ziyade yabancı misafirlerimize, süit odalarla hizmet veren, beş yıldızlı otelimiz.',
+                    'THY başta olmak üzere havayolu firmalarının uçak içi eğlence ve sosyal medya prodüksiyonlarını üreten, alanında tecrübeli bir şirkettir.',
+                    'Trablus, Bingazi, Misurata ve  El Baida bulunan depoları ve kırktan fazla dağıtım kamyonu ile Zadana, Libya’nın tecrübeli toptan gıda ve içecek distribütörüdür. ',
+                    'Distribütörü olduğu bir çok markanın Türkiye’den Afrika ülkelerine ihracatını yapan grup şirketimizdir.',
+                    'Turizm sektörünün ihtiyaç duyduğu B2B yazılımları sağlayan grup şirketimizdir.',
+                    'Libya ve Lübnan’daki ofisleri aracılığıyla Türk büyükelçiliklerine etiket vize hizmeti veren grup şirketimizdir.'
+                ],
+                'en' => [
+                     'A B2B based leading tourism group with a capacity to bring in more than 80k tourists from MENA to Turkey via its regional agencies.',
+                    'Offers training and project consultation services to leading companies in Libya, in particular oil companies.',
+                    'Based in Canada, our company offers services in digital transformation, ERP, cyber security, network solutions to companies in Libya.',
+                    'Based in Malta, our company is engaged in renewable energy, mainly including solar energy, in European and North African countries.',
+                    'Offers consultation services to foreigners interested in real estate investment in Turkey and individuals willing to benefit from Turkish citizenship programme.',
+                    'Situated in Istanbul Taksim Square, our four-star hotels hosts our guests with its bosphorus view rooms and supreme service quality.',
+                    'Located within the one and only theme park of Istanbul, our five-star hotels serves mostly our foreign guests in suit rooms.',
+                    'An experienced company producing in-flight entertainment and social media productions for airline companies, mainly including THY.',
+                    'Experienced bulk food and drink distributor of Libya, Zadana has warehouses in Trablus, Bingazi, Misurata and El Baida and more than 40 distribution trucks.',
+                    'As the distributor of many brands, our group company exports from Turkey to African countries.',
+                    'Provides B2B software as required by tourism industry.',
+                    'Offers label visa services to Turkish embassies through offices in Libya and Lebanon.'
+                ],
             ],
             'image' => [
                'Helen-Holidays.png', 'Avenue-International.png', 'Era-Horizons.png', 'Electrofix.png', 'CLP.jpeg', 'Taksim-Square.jpeg',
@@ -364,31 +386,24 @@
             </div>
             <div class="row">
                 @for($i = 0; $i < count($company['title']); $i++)
-                <div class="col-lg-4 col-md-6" style="display: table-cell;">
-                    <div class="news_item shadow wow fadeInUp" data-wow-delay="300ms">
+                <div class="col-lg-4 col-md-6 mt-3" style="display: table-cell;">
+                    <div class="news_item shadow wow fadeInUp" data-wow-delay="300ms" style="height: 100%">
                         <div class="blog-multi-img">
                             <div class="owl-carousel owl-theme owl-blog-item">
                                 <div class="item">
                                     <a href="{{$company['link'][$i]}}" target="_blank">
-                                        <img src="{{asset('img/company/'. $company['image'][$i])}}" alt="{{$company['title'][$i]}}">
+                                        <h4 class="mb-0 mt-4 text-center" style="color:#22327d">{{$company['title'][$i]}}</h4>
                                     </a>
 
                                 </div>
                             </div>
                         </div>
                         <div class="news_desc">
-                            <h3 class="text-capitalize font-normal darkcolor"><a href="{{$company['link'][$i]}}" target="_blank">{{$company['title'][$i]}}</a></h3>
-                            <p>{{$company['text'][$i]}}</p>
+                            <p>{{$company['text'][config('app.locale')][$i]}}</p>
                         </div>
                     </div>
                 </div>
                 @endfor
-                <div class="container">
-                    <div class="col-md text-center">
-                        <a class="btn yellow-and-white-slider-btn"
-                           href="{{url('/')}}">{{__('page.read.more')}}</a>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
