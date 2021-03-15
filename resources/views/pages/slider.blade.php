@@ -36,7 +36,7 @@
                      id="slide-1-layer-2"
                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                     data-fontsize="['100','100','80','60']"
+                     data-fontsize="['80','80','60','40']"
                      data-width="none"
                      data-height="none"
                      data-whitespace="nowrap"
@@ -51,7 +51,7 @@
                      data-paddingbottom="[0,0,0,0]"
                      data-paddingleft="[0,0,0,0]"
 
-                     style="z-index: 6; white-space: nowrap; font-size: 100px; line-height: 16px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
+                     style="z-index: 6; white-space: nowrap; font-size: 10vw; line-height: 16px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
                     {{__('page.trablus.title')}}
                 </div>
 
@@ -137,7 +137,7 @@
                      id="slide-2-layer-2"
                      data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
-                     data-fontsize="['100','100','80','60']"
+                     data-fontsize="['80','80','60','40']"
                      data-width="none"
                      data-height="none"
                      data-whitespace="nowrap"
@@ -152,7 +152,7 @@
                      data-paddingbottom="[0,0,0,0]"
                      data-paddingleft="[0,0,0,0]"
 
-                     style="z-index: 6; white-space: nowrap; font-size: 100px; line-height: 16px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
+                     style="z-index: 6; white-space: nowrap; font-size: 10vw; line-height: 16px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
                     {{__('page.istanbul.title')}}
                 </div>
 

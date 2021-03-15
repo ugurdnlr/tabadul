@@ -17,6 +17,12 @@
             }
         }
 
+        @media only screen and (max-width: 600px) {
+            #sectors .news_item img {
+                height: auto !important;
+            }
+        }
+
         .news_item {
             height: auto;
         }
@@ -68,8 +74,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 about-img-area">
-                    <div class="about-img">
-                        <img class="aboutImage" src="{{asset('img/Dr-Faituri.jpg')}}" style="height: 550px;">
+                    <div class="about-img text-center">
+                        <img class="aboutImage" src="{{asset('img/Dr-Faituri.jpg')}}">
                         <div class="mt-4 text-center">
                             <span><b>Dr. Anwar Faituri</b></span> <br>
                         <span>{!! trans('page.president.title') !!}</span>
@@ -113,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 col-md-6 col-lg-4 text-center">
                     <div class="production-box">
                         <img src="{{asset('img/ticari.png')}}" alt="">
@@ -135,8 +141,8 @@
                         <p class="production-des">{{__('page.services.content6.first')}}</p>
                     </div>
                 </div>
-                <div class="col-6 offset-3 text-center">
-                <a class="btn blue-and-white-slider-btn ml-5"
+                <div class="col-12 text-center">
+                <a class="btn blue-and-white-slider-btn"
                    href="{{url('/hizmetlerimiz')}}">{{__('page.read.more')}}</a>
                 </div>
             </div>
@@ -180,7 +186,7 @@
                                 <img src="{{asset('img/Refinery.jpg')}}" alt="Rafinery">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title1')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title1')}}</h3>
                             <p>{{trans('page.sectors.content1')}}</p>
                         </div>
                     </div>
@@ -191,7 +197,7 @@
                                 <img src="{{asset('img/Gold-mine.jpg')}}" alt="Gold Mine">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title2')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title2')}}</h3>
                             <p>{{trans('page.sectors.content2')}}</p>
                         </div>
                     </div>
@@ -202,7 +208,7 @@
                                 <img src="{{asset('img/Finans.jpg')}}" alt="Data Center">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title3')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title3')}}</h3>
                             <p>{{trans('page.sectors.content3')}}</p>
                         </div>
                     </div>
@@ -213,7 +219,7 @@
                                 <img src="{{asset('img/Dis-Ticaret.jpg')}}" alt="Factory">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title4')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title4')}}</h3>
                             <p>{{trans('page.sectors.content4')}}</p>
                         </div>
                     </div>
@@ -224,7 +230,7 @@
                                 <img src="{{asset('img/Turizm.jpg')}}" alt="Turizm">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title5')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title5')}}</h3>
                             <p>{{trans('page.sectors.content5')}}</p>
                         </div>
                     </div>
@@ -235,7 +241,7 @@
                             <img src="{{asset('img/Data-center.jpg')}}" alt="Data center">
                         </div>
                         <div class="news_desc">
-                            <h3 class="font-normal darkcolor"><a href="{{url('/blog/pegasus')}}">{{trans('page.sectors.title6')}}</a></h3>
+                            <h3 class="font-normal darkcolor">{{trans('page.sectors.title6')}}</h3>
                             <p>{{trans('page.sectors.content6')}}</p>
                         </div>
                     </div>
@@ -341,14 +347,14 @@
             'text' => [
                 'tr' => [
                      'MENA bölgesinden Türkiye’ye yılda 80 binden fazla turist getiren, bölgedeki acenteleri ile B2B çalışan lider turizm grubudur.',
-                    'Petrol firmaları başta olmak üzere Libya’nın önde gelen firmalarına eğitim ve proje danışmanlığı hizmetleri vermektedir.',
+                    'Petrol firmaları başta olmak üzere Libya’nın önde gelen kurumlarına eğitim ve proje danışmanlığı hizmetleri vermektedir.',
                     'Kanada merkezli şirketimiz, Libya’daki firmalara dijital dönüşüm, ERP, siber güvenlik, network çözümleri alanlarında hizmet sağlamaktadır.',
                     'Malta merkezli şirketimiz, Avrupa ve Kuzey Afrika ülkelerinde, başta güneş enerjisi olmak üzere yenilenebilir enerji alanında faaliyet göstermektedir.',
                     'Türkiye’ye gayrimenkul yatırımı yapmak isteyen yabancılara, Türk vatandaşlığı programından faydalanmak isteyen kişilere danışmanlık sağlamaktadır.',
                     'İstanbul Taksim meydanında bulunan, boğaz manzaralı odaları ve yüksek hizmet kalitesi ile misafirlerimizi ağırladığımız dört yıldızlı şehir otelimiz.',
                     'İstanbul’un tek tema parkının içinde yer alan, daha ziyade yabancı misafirlerimize, süit odalarla hizmet veren, beş yıldızlı otelimiz.',
                     'THY başta olmak üzere havayolu firmalarının uçak içi eğlence ve sosyal medya prodüksiyonlarını üreten, alanında tecrübeli bir şirkettir.',
-                    'Trablus, Bingazi, Misurata ve  El Baida bulunan depoları ve kırktan fazla dağıtım kamyonu ile Zadana, Libya’nın tecrübeli toptan gıda ve içecek distribütörüdür. ',
+                    'Trablus, Bingazi, Misurata ve El Baida şehirlerinde bulunan depoları ve kırktan fazla dağıtım kamyonu ile Zadana, Libya’nın tecrübeli toptan gıda ve içecek distribütörüdür.',
                     'Distribütörü olduğu bir çok markanın Türkiye’den Afrika ülkelerine ihracatını yapan grup şirketimizdir.',
                     'Turizm sektörünün ihtiyaç duyduğu B2B yazılımları sağlayan grup şirketimizdir.',
                     'Libya ve Lübnan’daki ofisleri aracılığıyla Türk büyükelçiliklerine etiket vize hizmeti veren grup şirketimizdir.'
@@ -361,11 +367,11 @@
                     'Offers consultation services to foreigners interested in real estate investment in Turkey and individuals willing to benefit from Turkish citizenship programme.',
                     'Situated in Istanbul Taksim Square, our four-star hotels hosts our guests with its bosphorus view rooms and supreme service quality.',
                     'Located within the one and only theme park of Istanbul, our five-star hotels serves mostly our foreign guests in suit rooms.',
-                    'An experienced company producing in-flight entertainment and social media productions for airline companies, mainly including THY.',
+                    'An experienced company producing in-flight entertainment and social media productions for airline companies, mainly including Turkish Airlines.',
                     'Experienced bulk food and drink distributor of Libya, Zadana has warehouses in Trablus, Bingazi, Misurata and El Baida and more than 40 distribution trucks.',
                     'As the distributor of many brands, our group company exports from Turkey to African countries.',
                     'Provides B2B software as required by tourism industry.',
-                    'Offers label visa services to Turkish embassies through offices in Libya and Lebanon.'
+                    'Offers sticker visa services to Turkish embassies through offices in Libya and Lebanon.'
                 ],
             ],
             'image' => [

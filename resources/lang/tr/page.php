@@ -16,7 +16,7 @@ return [
     'sectors' => 'Sektörler',
     'contact' => 'İletişim',
     'customer' => 'Müşterilerimiz',
-    'company' => 'Grup Şirketlerimiz',
+    'company' => 'İştiraklerimiz',
 
     //slider
     'trablus.title' => 'Libya’da Yatırım İmkanları',
@@ -84,13 +84,13 @@ return [
            <li>yenileme ve teknoloji transferi hususlarında tüm finansal yatırımın Libya tarafında yapıldığı,</li>
            <li>veya yatırımın farklı oranlarda ortaklaşa yapıldığı iş modellerimiz mevcuttur.</li>
        </ul>',
-    'services.title2' => 'Kamu – Özel Sektör Ortaklığı (PPP)',
+    'services.title2' => 'Kamu – Özel Sektör Ortaklığı (PPP) ve Özelleştirmeler',
     'services.content2.first' => 'Büyük ölçekli yeni iş kollarında Libya PPP projelerinde imkanlar sağlamaktadır.',
     'services.content2' => 'Özellikle büyük ölçekli yeni iş kollarında Libya PPP projelerinde de imkanlar sağlamaktadır.
-    Libya’da özel sektör yeni gelişmekte olup, mevcut büyük sanayi tesislerinin hemen hemen tamamı devlete aittir.
-     Gelecek dönemde Libya devleti, özel sektörün gelişmesini ve devletin ekonomideki payının azalmasını hedeflemektedir.
-     Bu amaçla çeşitli sektörlerde özelleştirme ve PPP türü projeler ön plana çıkmaktadır. Şirketimiz bu alandaki fırsatları
-      yakinen takip etmekte, ilgi duyan yatırımcılarla tarafları bir araya getirmektedir.',
+     Libya’da özel sektör yeni gelişmekte olup, mevcut büyük sanayi tesislerinin hemen hemen tamamı devlete aittir. Gelecek
+     dönemde Libya devleti, özel sektörün gelişmesini ve devletin ekonomideki payının azalmasını hedeflemektedir. Bu amaçla çeşitli
+     sektörlerde özelleştirme ve PPP türü projeler ön plana çıkmaktadır. Şirketimiz bu alandaki fırsatları yakından takip etmekte,
+     ilgi duyan yatırımcılarla tarafları bir araya getirmektedir.',
     'services.title3' => 'Altyapı Projeleri',
     'services.content3.first' => 'Enerji, otoyol, havalimanı, liman ve daha bir çok alanda büyük altyapı ihaleleri ateşkesin sağlanması ve ortak hükümetin kurulması ile beraber öne çıkan bir numaralı gündemdir.',
     'services.content3' => 'İç savaş döneminde Libya altyapısı ciddi zarar görmüştür. Ülkenin tamamının onarıma ve yenilenmeye
@@ -109,9 +109,9 @@ return [
     distribütörlüğünü üstlendiğimiz firmalara hizmet veriyoruz.',
     'services.title6' => 'Know – How Transferi',
     'services.content6.first' => 'Afrika ülkelerinin devlet ve özel sektör özelinde ihtiyaç duydukları know-how aktarımını, ilgili alanlarda deneyimli, gerekli insan kaynağına sahip şirketlerden, devlet kurumlarından sağlıyoruz.',
-    'services.content6' => 'Tabadul Grup olarak, Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru
-    partnerleri bir araya getiriyoruz. Dış ticarette petrol, petrokimya, gıda ve FMCG sektörlerinde ise kendi dağıtım kanalımızla
-    distribütörlüğünü üstlendiğimiz firmalara hizmet veriyoruz.',
+    'services.content6' => 'Afrika ülkelerinin devlet ve özel sektör özelinde ihtiyaç duydukları know-how aktarımını,
+    ilgili alanlarda deneyimli, gerekli insan kaynağına sahip şirketlerden, devlet kurumlarından sağlıyoruz. Projelerin planlama,
+    uygulamaya alma ve geliştirme dahil tüm süreçlerinde danışanlarımızla birlikte ilerliyoruz.',
 
 
     // Sectors

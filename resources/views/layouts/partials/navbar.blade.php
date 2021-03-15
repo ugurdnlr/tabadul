@@ -15,7 +15,6 @@
             <div class="col-7 d-flex justify-content-center">
                 <div class="collapse navbar-collapse" id="megaone">
                     <div class="navbar-nav ml-auto mr-auto topmenu">
-                        <a class="nav-link {{$scroll}}" href="{{$link}}#">{{__('page.home')}}</a>
                         <a class="nav-link {{$scroll}}" href="{{$link}}#about">{{__('page.aboutUs')}}</a>
                         <a class="nav-link {{$scroll}}" href="{{$link}}#our-services">{{__('page.ourServices')}}</a>
                         <a class="nav-link {{$scroll}}" href="{{$link}}#sectors">{{__('page.sectors')}}</a>
@@ -25,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="language-select-desktop" style="margin-left: 175px; margin-top: 18px;">
+            <div class="language-select-desktop ml-5 mt-3">
                     <a href="{{url('lang/tr')}}">
                         <img src="{{asset('img/turkey.png')}}" style="width: 30px; height: 30px; border-radius: 50%;">
                     </a>
@@ -51,9 +50,6 @@
                 <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
                 <nav class="side-nav w-100">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link {{$scroll}}" href="{{$link}}#">{{__('page.home')}}</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link {{$scroll}}" href="{{$link}}#about">{{__('page.aboutUs')}}</a>
                         </li>

@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-10">
                             <h4 class="production-heading mt-3">{{__('page.services.title1')}}</h4>
-                            <p class="production-des">{{__('page.services.content1')}}</p>
+                            <p class="production-des">{!! trans('page.services.content1') !!}</p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="col-10">
                             <h4 class="production-heading mt-3">{{__('page.services.title2')}}</h4>
-                            <p class="production-des">{{__('page.services.content2')}}</p>
+                            <p class="production-des">{!! trans('page.services.content2') !!}</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-10">
                             <h4 class="production-heading mt-3">{{__('page.services.title3')}}</h4>
-                            <p class="production-des">{{__('page.services.content3')}}</p>
+                            <p class="production-des">{!! trans('page.services.content3') !!}</p>
                         </div>
                     </div>
                 </div>
@@ -73,18 +73,7 @@
                         </div>
                         <div class="col-10">
                             <h4 class="production-heading mt-3">{{__('page.services.title4')}}</h4>
-                            <p class="production-des">{{__('page.services.content4')}}</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="production-box row">
-                        <div class="col-2 d-flex align-items-center">
-                            <img src="{{asset('img/ozellestirme.png')}}" alt="">
-                        </div>
-                        <div class="col-10">
-                            <h4 class="production-heading mt-3">{{__('page.services.title5')}}</h4>
-                            <p class="production-des">{{__('page.services.content5')}}</p>
+                            <p class="production-des">{!! trans('page.services.content4') !!}</p>
                         </div>
                     </div>
                 </div>
@@ -95,7 +84,7 @@
                         </div>
                         <div class="col-10">
                             <h4 class="production-heading mt-3">{{__('page.services.title6')}}</h4>
-                            <p class="production-des">{{__('page.services.content6')}}</p>
+                            <p class="production-des">{!! trans('page.services.content6') !!}</p>
                         </div>
                     </div>
                 </div>

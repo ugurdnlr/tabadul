@@ -9,14 +9,14 @@ return [
 
     // Menu
     'home' => 'Homepage',
-    'aboutUs' => 'About Us',
-    'ourCast' => 'Our Team',
-    'ourServices' => 'Our Services',
+    'aboutUs' => 'About',
+    'ourCast' => 'Team',
+    'ourServices' => 'Services',
     'blog' => 'Blog',
     'sectors' => 'Industries',
     'contact' => 'Contact',
-    'customer' => 'Müşterilerimiz',
-    'company' => 'Group Companies',
+    'customer' => 'Customers',
+    'company' => 'Subsidiaries',
 
     //slider
     'trablus.title' => 'Investment Opportunities in Libya',
@@ -48,7 +48,7 @@ return [
     'ad.sales.content' => 'Dergilerimiz, hava yolu projelerimiz ve dijital reklam alanlarımız ile markanızı buluşturuyoruz.',
     'social.media' => 'SOSYAL MEDYA',
     'social.media.content' => 'On milyonların takip ettiği global hesapların sosyal medya videolarını hazırlıyoruz.',
-    'OUR_CAST' => 'OUR CAST',
+    'OUR_CAST' => 'OUR TEAM',
     'OUR_BUSINESS' => 'PRODÜKSİYON',
     'OUR_BUSINESS.lower' => 'Prodüksiyon',
     'CUSTOMER' => 'MÜŞTERİLERİMİZ',
@@ -67,7 +67,7 @@ return [
     // Services
 
     'services.title1' => 'Foreign Direct Investment (FDI)',
-    'services.content1.first' => 'Libya’nın devrim sonrasında yeniden inşaası için doğrudan yabancı yatırıma ihtiyaç duyulmaktadır.',
+    'services.content1.first' => 'Libya is in need of foreign direct investment for post-revolution reconstruction.',
     'services.content1' => 'Libya is in need of foreign direct investment for post-revolution reconstruction. However,
     Libya is a country having physical resources essentially yet requiring developments in human resources and know-how.
     For this purpose, our company has conducted activities specific to factories, most of which are unfinished, idle and/or
@@ -78,29 +78,29 @@ return [
            <li>Investment is jointly made at different ratios.</li>
        </ul>',
     'services.title2' => 'Public-Private Partnership (PPP) and Privatizations',
-    'services.content2.first' => 'Büyük ölçekli yeni iş kollarında Libya PPP projelerinde imkanlar sağlamaktadır.',
+    'services.content2.first' => 'Opportunities are also offered in Libya PPP projects, particularly in new large-scale lines of work.',
     'services.content2' => 'Opportunities are also offered in Libya PPP projects, particularly in new large-scale lines of work.
      Private sector is newly developing in Libya and almost the entire current large industrial facilities belong to the governments.
       The government of Libya aims at developing private sector and decreasing the share of government in economy in the future.
        For this purpose, privation and PPP model projects stand out in various industries. Our company follows closely
        the opportunities in this field and gathers any interested investors.',
     'services.title3' => 'Infrastructure Projects',
-    'services.content3.first' => 'Enerji, otoyol, havalimanı, liman ve daha bir çok alanda büyük altyapı ihaleleri ateşkesin sağlanması ve ortak hükümetin kurulması ile beraber öne çıkan bir numaralı gündemdir.',
+    'services.content3.first' => 'Major infrastructure tenders for energy, highways, airport, ports and etc. are the first items on the agenda along with armistice and coalition.',
     'services.content3' => 'The infrastructure of Libya has suffered substantial damages during civil war. The entire country
     needs repair and renewal. Major infrastructure tenders for energy, highways, airport, ports and etc. are the first item
      on the agenda along with armistice and coalition. Large contracting services will revive in this field in Libya.',
     'services.title4' => 'Commercial Cooperation',
-    'services.content4.first' => 'Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru partnerleri bir araya getiriyoruz.',
+    'services.content4.first' => 'Tabadul Group unites the companies willing to increase business in Libya and surrounding companies with the correct partners.',
     'services.content4' => 'Tabadul Group unites the companies willing to increase business in Libya and surrounding
     companies with the correct partners and offers services as distributor through our own distribution channels in petroleum,
      petrochemical, food and FMCG industries.',
-    'services.title5' => 'Özelleştirme İhaleleri',
-    'services.content5.first' => 'Gelecek dönemde Libya devleti, özel sektörün gelişmesini ve devletin ekonomideki payının azalmasını hedeflemektedir.',
+    'services.title5' => 'Privatization Tenders',
+    'services.content5.first' => 'The state of Libya aims at developing private sector and decreasing the share of government in economy through privatizations in the future.',
     'services.content5' => 'Tabadul Grup olarak, Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru
     partnerleri bir araya getiriyoruz. Dış ticarette petrol, petrokimya, gıda ve FMCG sektörlerinde ise kendi dağıtım kanalımızla
     distribütörlüğünü üstlendiğimiz firmalara hizmet veriyoruz.',
     'services.title6' => 'Know – How Transfer',
-    'services.content6.first' => 'Afrika ülkelerinin devlet ve özel sektör özelinde ihtiyaç duydukları know-how aktarımını, ilgili alanlarda deneyimli, gerekli insan kaynağına sahip şirketlerden, devlet kurumlarından sağlıyoruz.',
+    'services.content6.first' => 'We provide know-how transfer, required by African countries specifically in government and private sector.',
     'services.content6' => 'We provide know-how transfer, required by African countries specifically in government and private sector,
      from government agencies and companies experienced in relevant fields and equipped with necessary human resources.
       We proceed throughout all processes of projects including planning, implementation and development with the help of our clients.',
@@ -123,7 +123,7 @@ return [
     'sectors.title5' => 'Tourism',
     'sectors.content5' => 'We have been bringing in tourists for more than 20 years to Turkey from MENA region, mainly
     from Libya and have been hosting more than 80k tourists per year. ',
-    'sectors.title6' => 'Information',
+    'sectors.title6' => 'Information Technologies',
     'sectors.content6' => 'We offer services to companies and government agencies in ERP and business process through our
     subsidiaries in Canada and Turkey engaged in software.',
 

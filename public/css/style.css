@@ -255,7 +255,6 @@ section{
 
 header a.logo {
     display: inline-block;
-    padding-top: .4rem;
 }
 header a.logo img {
     max-width: 170px;
