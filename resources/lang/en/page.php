@@ -19,8 +19,8 @@ return [
     'company' => 'Subsidiaries',
 
     //slider
-    'trablus.title' => 'Investment Opportunities in Libya',
-    'trablus.content' => 'with right projects, and tempting conditions',
+    'trablus.title' => '<p>Investment Opportunities</p><p class="mt-lg-5 pt-3">in Libya</p>',
+    'trablus.content' => '<p class="mt-lg-5 pt-3">with right projects, and tempting conditions</p>',
     'istanbul.title' => 'Mergers from Turkey',
     'istanbul.content' => 'We provide investors to trustworthy companies.',
 
@@ -78,6 +78,7 @@ return [
            <li>Investment is jointly made at different ratios.</li>
        </ul>',
     'services.title2' => 'Public-Private Partnership (PPP) and Privatizations',
+    'services.title2.home' => 'Public-Private Partnership (PPP)',
     'services.content2.first' => 'Opportunities are also offered in Libya PPP projects, particularly in new large-scale lines of work.',
     'services.content2' => 'Opportunities are also offered in Libya PPP projects, particularly in new large-scale lines of work.
      Private sector is newly developing in Libya and almost the entire current large industrial facilities belong to the governments.

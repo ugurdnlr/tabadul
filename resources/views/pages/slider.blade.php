@@ -40,19 +40,20 @@
                      data-width="none"
                      data-height="none"
                      data-whitespace="nowrap"
+                     data-lineHeight="['30','30','30','30']"
 
                      data-type="text"
                      data-responsive_offset="on"
 
                      data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                     data-textAlign="['inherit','inherit','inherit','inherit']"
+                     data-textAlign="['center','center','center','center']"
                      data-paddingtop="[0,0,0,0]"
                      data-paddingright="[0,0,0,0]"
                      data-paddingbottom="[0,0,0,0]"
                      data-paddingleft="[0,0,0,0]"
 
-                     style="z-index: 6; white-space: nowrap; font-size: 10vw; line-height: 16px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
-                    {{__('page.trablus.title')}}
+                     style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 30px; font-weight: 700; color: #ffffff; letter-spacing: 0;font-family: 'Oswald', sans-serif;-webkit-text-stroke: 1px rgb(255, 255, 255);">
+                    {!! trans('page.trablus.title') !!}
                 </div>
 
                 <!-- LAYER NR. 13 -->
@@ -76,7 +77,7 @@
                      data-paddingleft="[0,0,0,0]"
 
                      style="z-index: 7; white-space: pre-line; font-size: 23px; line-height: 30px;letter-spacing:1px;text-align: center; font-weight: bolder; color: #ffffff; font-family: 'Roboto', sans-serif;">
-                    {{__('page.trablus.content')}}
+                    {!! trans('page.trablus.content') !!}
                 </div>
 
                 <div class="tp-caption rev-btn  rs-parallaxlevel-2"

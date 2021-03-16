@@ -85,6 +85,7 @@ return [
            <li>veya yatırımın farklı oranlarda ortaklaşa yapıldığı iş modellerimiz mevcuttur.</li>
        </ul>',
     'services.title2' => 'Kamu – Özel Sektör Ortaklığı (PPP) ve Özelleştirmeler',
+    'services.title2.home' => 'Kamu – Özel Sektör Ortaklığı (PPP)',
     'services.content2.first' => 'Büyük ölçekli yeni iş kollarında Libya PPP projelerinde imkanlar sağlamaktadır.',
     'services.content2' => 'Özellikle büyük ölçekli yeni iş kollarında Libya PPP projelerinde de imkanlar sağlamaktadır.
      Libya’da özel sektör yeni gelişmekte olup, mevcut büyük sanayi tesislerinin hemen hemen tamamı devlete aittir. Gelecek

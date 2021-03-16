@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-12 col-lg-5 about-img-area">
                     <div class="about-img text-center">
-                        <img class="aboutImage" src="{{asset('img/Dr-Faituri.jpg')}}">
+                        <img class="aboutImage" src="{{asset('img/anwar-faituri.jpg')}}">
                         <div class="mt-4 text-center">
                             <span><b>Dr. Anwar Faituri</b></span> <br>
                         <span>{!! trans('page.president.title') !!}</span>
@@ -107,7 +107,7 @@
                 <div class="col-12 col-md-6 col-lg-4 text-center">
                     <div class="production-box">
                         <img src="{{asset('img/ppp.png')}}" alt="">
-                        <h4 class="production-heading mt-3">{{__('page.services.title2')}}</h4>
+                        <h4 class="production-heading mt-3">{{__('page.services.title2.home')}}</h4>
                         <p class="production-des">{{__('page.services.content2.first')}}</p>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                     <div class="row no-gutters cast-card">
                         <div class="col-12">
                             <div class="cast-img">
-                                <img src="{{asset('img/Dr-Faituri.jpg')}}">
+                                <img src="{{asset('img/anwar-faituri.jpg')}}">
                             </div>
                             <div class="cast-detail d-flex align-items-center" style="height: 100px">
                                 <div class="cast-content">
