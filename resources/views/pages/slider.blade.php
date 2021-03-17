@@ -106,7 +106,7 @@
                 data-easeout="Power3.easeInOut" data-masterspeed="2000" data-fsmasterspeed="1500">
 
                 <!-- MAIN IMAGE -->
-                <img src="{{asset('img/1.Trablus-gece-gorseli.jpg')}}" alt="" data-bgposition="center center"
+                <img src="{{asset('img/Istanbul.jpg')}}" alt="" data-bgposition="center center"
                      data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10"
                      data-no-retina>
 

@@ -227,7 +227,7 @@
                 <div class="col-lg-6 col-md-6 mb-5">
                     <div class="news_item shadow wow fadeInUp" data-wow-delay="200ms">
                         <div class="blog-img">
-                                <img src="{{asset('img/Turizm.jpg')}}" alt="Turizm">
+                                <img src="{{asset('img/Kapadokya.jpg')}}" alt="Turizm">
                         </div>
                         <div class="news_desc">
                             <h3 class="font-normal darkcolor">{{trans('page.sectors.title5')}}</h3>

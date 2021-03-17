@@ -19,7 +19,7 @@ return [
     'company' => 'İştiraklerimiz',
 
     //slider
-    'trablus.title' => 'Libya’da Yatırım İmkanları',
+    'trablus.title' => 'MENA’da Yatırım İmkanları',
     'trablus.content' => 'Doğru projelere, cazip koşullarla',
     'trablus.content2' => 'Videolarımız THY uçak içi ekranlarında ve',
     'trablus.content3' => 'sosyal medyasında yayınlanıyor.',

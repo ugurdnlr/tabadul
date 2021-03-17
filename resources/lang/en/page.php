@@ -19,7 +19,7 @@ return [
     'company' => 'Subsidiaries',
 
     //slider
-    'trablus.title' => '<p>Investment Opportunities</p><p class="mt-lg-5 pt-3">in Libya</p>',
+    'trablus.title' => '<p>Investment Opportunities</p><p class="mt-lg-5 pt-3">in MENA</p>',
     'trablus.content' => '<p class="mt-lg-5 pt-3">with right projects, and tempting conditions</p>',
     'istanbul.title' => 'Mergers from Turkey',
     'istanbul.content' => 'We provide investors to trustworthy companies.',
