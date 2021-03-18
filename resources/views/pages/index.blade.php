@@ -319,7 +319,7 @@
                             </div>
                             <div class="cast-detail d-flex align-items-center" style="height: 100px">
                                 <div class="cast-content">
-                                    <h4 class="cast-name">ALİ EKŞİ</h4>
+                                    <h4 class="cast-name">ALİ EŞKİ</h4>
                                     <span class="cast-designation">{{__('page.managing.partner')}}</span>
                                 </div>
                                 <div class="overlay-cast"></div>
