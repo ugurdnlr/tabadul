@@ -92,7 +92,7 @@ return [
      on the agenda along with armistice and coalition. Large contracting services will revive in this field in Libya.',
     'services.title4' => 'Commercial Cooperation',
     'services.content4.first' => 'Tabadul Group unites the companies willing to increase business in MENA region and surrounding companies with the correct partners.',
-    'services.content4' => 'Tabadul Group unites the companies willing to increase business in Libya and surrounding
+    'services.content4' => 'Tabadul Group unites the companies willing to increase business in MENA region and surrounding
     companies with the correct partners and offers services as distributor through our own distribution channels in petroleum,
      petrochemical, food and FMCG industries.',
     'services.title5' => 'Privatization Tenders',
