@@ -340,9 +340,9 @@
                 'Visa For The Globe'
             ],
             'link' => [
-               'http://www.helenholidays.com/', 'http://www.avenueinternational.net/', 'http://www.erahorizons.com/', 'http://www.electrofixgroup.com',
-               'https://www.turkeyclp.com/', 'http://www.hoteltaksimsquare.com/', 'http://www.isfanbulsuites.com/', 'https://www.telefun.com.tr/',
-               'www.zadana.ly', 'www.tabadul.com.tr', 'https://www.neptunyazilim.com/', 'https://www.visafg.com/'
+               'http://www.helenholidays.com/', 'http://www.avenueinternational.net', 'http://www.erahorizons.com', 'http://www.electrofixgroup.com',
+               'https://www.turkeyclp.com/', 'http://www.hoteltaksimsquare.com/', 'http://www.isfanbulsuites.com/', 'https://www.telefun.com.tr',
+               'http://www.zadana.ly', 'http://tabadul.com.tr', 'https://www.neptunyazilim.com/', 'https://www.visafg.com/'
             ],
             'text' => [
                 'tr' => [

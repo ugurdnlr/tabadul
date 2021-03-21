@@ -99,10 +99,10 @@ return [
       ve ortak hükümetin kurulması ile beraber öne çıkan bir numaralı gündemdir.
        Bu alanda büyük müteahhitlik hizmetleri Libya’da tekrar başlayacaktır. ',
     'services.title4' => 'Ticari İşbirlikleri',
-    'services.content4.first' => 'Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru partnerleri bir araya getiriyoruz.',
-    'services.content4' => 'Tabadul Grup olarak, Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru
+    'services.content4.first' => "MENA Bölgesi'nde ticaretini artırmak isteyen firmalar ile doğru partnerleri bir araya getiriyoruz.",
+    'services.content4' => "Tabadul Grup olarak, MENA Bölgesi'nde ticaretini artırmak isteyen firmalar ile doğru
     partnerleri bir araya getiriyoruz. Dış ticarette petrol, petrokimya, gıda ve FMCG sektörlerinde ise kendi dağıtım kanalımızla
-    distribütörlüğünü üstlendiğimiz firmalara hizmet veriyoruz.',
+    distribütörlüğünü üstlendiğimiz firmalara hizmet veriyoruz.",
     'services.title5' => 'Özelleştirme İhaleleri',
     'services.content5.first' => 'Gelecek dönemde Libya devleti, özel sektörün gelişmesini ve devletin ekonomideki payının azalmasını hedeflemektedir.',
     'services.content5' => 'Tabadul Grup olarak, Libya ve çevre ülkelerde ticaretini artırmak isteyen firmalar ile doğru
