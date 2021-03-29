@@ -269,6 +269,8 @@ return [
     'portfolio.social.li5' => 'YouTube',
 
     'lebanon' => 'Lübnan',
-    'turkey' => 'Türkiye'
+    'turkey' => 'Türkiye',
+    'canada' => 'Kanada',
+    'malta' => 'Malta',
 
 ];

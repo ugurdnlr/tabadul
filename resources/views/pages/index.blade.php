@@ -792,6 +792,7 @@
                 <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.7319161291034!2d13.14172781518457!3d32.87881178094133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a8ede9bb84c88d%3A0xf25bcb13fd8f20a0!2sBen%20Saoud%20Boutiques!5e0!3m2!1sen!2str!4v1617043051890!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
+
                 <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
                     <div class="location-details">
                         <p class="mb-2"><b><u>{{trans('page.lebanon')}}</u></b></p>
@@ -800,13 +801,43 @@
                             <li><span>{{__('page.officeTel')}}:</span> +961 1 341 091</li>
                             <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
                         </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3311.8647949879028!2d35.4842406!3d33.8931358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1728e04a2bcd%3A0x9d568cbfeea363f3!2sConcorde%20Bldg!5e0!3m2!1sen!2str!4v1617043081587!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
+                    <div class="location-details">
+                        <p class="mb-2"><b><u>{{trans('page.canada')}}</u></b></p>
+                        <p class="contact-address">12 Dewberry Crescent, Ottawa, Nepean, Ontario, Canada</p>
+                        <ul class="contact-list">
+                            <li><span>{{__('page.officeTel')}}:</span> +1 613 408 7282</li>
+                            <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.9590417156987!2d-75.74044508444844!3d45.28904937909925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccdfd15ff4c2bd5%3A0x9f162bc6b896b5d2!2s12%20Dewberry%20Crescent%2C%20Nepean%2C%20ON%20K2J%204N3%2C%20Kanada!5e0!3m2!1str!2str!4v1617044889399!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
+                    <div class="location-details">
+                        <p class="mb-2"><b><u>{{trans('page.malta')}}</u></b></p>
+                        <p class="contact-address">Electrofix Building, Triq il-Burdnara, Qormi QRM3554 Malta</p>
+                        <ul class="contact-list">
+                            <li><span>{{__('page.officeTel')}}:</span> +356 216 75 353</li>
+                            <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
+                        </ul>
                         <a href="mailto:info@tabadul.com.tr"><i
                                 class="far fa-envelope fa-lg"></i> </a>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3311.8647949879028!2d35.4842406!3d33.8931358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1728e04a2bcd%3A0x9d568cbfeea363f3!2sConcorde%20Bldg!5e0!3m2!1sen!2str!4v1617043081587!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25861.305493954264!2d14.482759!3d35.88177!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28a531f529b2580f!2sElectrofix%20Energy!5e0!3m2!1sen!2str!4v1617044967318!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
