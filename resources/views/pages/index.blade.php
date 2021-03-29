@@ -772,12 +772,22 @@
                             <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
                             <li><span>{{__('page.days')}}:</span> 09:00 / 18:00</li>
                         </ul>
+                        <p class="mb-2"><u>Libya</u></p>
+                        <p class="contact-address mb-0">Hay Alandalus Street, Wahat Center, Office No:65 Tripoli / Libya</p>
+                        <ul class="contact-list">
+                            <li class="mb-2"><span>{{__('page.officeTel')}}:</span> +218-214-777-989</li>
+                        </ul>
+                        <p class="mb-2"><u>{{trans('page.lebanon')}}</u></p>
+                        <p class="contact-address mb-0">Concorde Building(Verdun Center) 5th Floor, Dunant Street, Verdun, Beirut / Lebanon</p>
+                        <ul class="contact-list">
+                            <li class="mb-2"><span>{{__('page.officeTel')}}:</span> +961 1 341 091</li>
+                        </ul>
                         <a href="mailto:info@tabadul.com.tr"><i
                                 class="far fa-envelope fa-lg"></i> </a>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-6 contact-form-box" style="box-shadow: none;">
+                <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.3988606127045!2d28.985864558182612!3d41.05155239482409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab71210496aeb%3A0xeca692225e4e7a69!2sAhmetbey%20Plaza!5e0!3m2!1sen!2str!4v1615720074691!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>

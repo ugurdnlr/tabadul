@@ -260,4 +260,6 @@ return [
     'portfolio.social.li4' => 'Twitter',
     'portfolio.social.li5' => 'YouTube',
 
+    'lebanon' => 'Lebanon'
+
 ];
