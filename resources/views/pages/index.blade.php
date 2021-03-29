@@ -762,25 +762,43 @@
             <!--contact us-->
 
             <div class="row">
-                <div class="col-12 col-lg-6 contact-details text-center text-lg-left">
+                <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
                     <div class="location-details">
-                        <h4 class="contact-heading">{{__('page.contactMe')}}</h4>
+                        <p class="mb-2"><b><u>{{trans('page.turkey')}}</u></b></p>
                         <p class="contact-address">{{__('page.telefun')}}</p>
                         <p class="contact-address">{{__('page.adress')}}</p>
                         <ul class="contact-list">
                             <li><span>{{__('page.officeTel')}}:</span> +90 212 246 20 80</li>
                             <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
-                            <li><span>{{__('page.days')}}:</span> 09:00 / 18:00</li>
+                            <li class="mb-1"><span>{{__('page.days')}}:</span> 09:00 / 18:00</li>
                         </ul>
-                        <p class="mb-2"><u>Libya</u></p>
-                        <p class="contact-address mb-0">Hay Alandalus Street, Wahat Center, Office No:65 Tripoli / Libya</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1504.3990525697611!2d28.987077!3d41.051544!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeca692225e4e7a69!2sAhmetbey%20Plaza!5e0!3m2!1sen!2str!4v1617042451844!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
+                    <div class="location-details">
+                        <p class="mb-2"><b><u>Libya</u></b></p>
+                        <p class="contact-address">Hay Alandalus Street, Wahat Center, Office No:65 Tripoli / Libya</p>
                         <ul class="contact-list">
-                            <li class="mb-2"><span>{{__('page.officeTel')}}:</span> +218-214-777-989</li>
+                            <li><span>{{__('page.officeTel')}}:</span> +218-214-777-989</li>
+                            <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
                         </ul>
-                        <p class="mb-2"><u>{{trans('page.lebanon')}}</u></p>
-                        <p class="contact-address mb-0">Concorde Building(Verdun Center) 5th Floor, Dunant Street, Verdun, Beirut / Lebanon</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.7319161291034!2d13.14172781518457!3d32.87881178094133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a8ede9bb84c88d%3A0xf25bcb13fd8f20a0!2sBen%20Saoud%20Boutiques!5e0!3m2!1sen!2str!4v1617043051890!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-12 col-lg-6 contact-details text-center text-lg-left d-flex align-items-center">
+                    <div class="location-details">
+                        <p class="mb-2"><b><u>{{trans('page.lebanon')}}</u></b></p>
+                        <p class="contact-address">Concorde Building(Verdun Center) 5th Floor, Dunant Street, Verdun, Beirut / Lebanon </p>
                         <ul class="contact-list">
-                            <li class="mb-2"><span>{{__('page.officeTel')}}:</span> +961 1 341 091</li>
+                            <li><span>{{__('page.officeTel')}}:</span> +961 1 341 091</li>
+                            <li><span>{{__('page.email')}}:</span> info@tabadul.com.tr</li>
                         </ul>
                         <a href="mailto:info@tabadul.com.tr"><i
                                 class="far fa-envelope fa-lg"></i> </a>
@@ -788,7 +806,7 @@
                 </div>
 
                 <div class="col-12 col-lg-6 d-flex align-items-center contact-form-box" style="box-shadow: none;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1504.3988606127045!2d28.985864558182612!3d41.05155239482409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab71210496aeb%3A0xeca692225e4e7a69!2sAhmetbey%20Plaza!5e0!3m2!1sen!2str!4v1615720074691!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3311.8647949879028!2d35.4842406!3d33.8931358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1728e04a2bcd%3A0x9d568cbfeea363f3!2sConcorde%20Bldg!5e0!3m2!1sen!2str!4v1617043081587!5m2!1sen!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
